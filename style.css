@@ -23,7 +23,8 @@
 
 @media (max-width:768px) {
 
-.benefits-section { text-align: center;
+.benefits-section { 
+  text-align: center;
 }
 
 }
@@ -49,11 +50,13 @@
   padding: 0px;
 }
 
-.list-item, .title {
+.list-item,
+.title {
   list-style: none;
 }
 
-.input,.button{
+.input,
+.button {
   outline: none;
 }
 
@@ -123,15 +126,15 @@ li {
   align-items: center;
 }
 
-li > * {
+.list-item > * {
   vertical-align: middle;
 }
 
-li > .input-checkbox {
+.list-item > .input-checkbox {
   margin: 0 10px;
 }
 
-li > .label {
+.list-item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -142,13 +145,13 @@ li > .label {
   width: 226px;
 }
 
-button.delete img {
+.delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.delete-img:hover {
   transform: rotateZ(0);
 }
 
